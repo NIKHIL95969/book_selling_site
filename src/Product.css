@@ -10,6 +10,7 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
+    
   }
 
 .product > img {
@@ -30,4 +31,8 @@
 .product__info {
     height: 100px;
     margin-bottom: 15px;
+}
+
+.product__rating {
+    display: flex;
 }

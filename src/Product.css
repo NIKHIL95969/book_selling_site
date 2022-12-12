@@ -6,7 +6,7 @@
     margin: 10px;
     padding: 20px;
     width: 100%;
-    max-height: 400px;
+    /* max-height: 400px; */
     min-width: 100px;
     background-color: white;
     z-index: 1;
@@ -28,8 +28,12 @@
     color: #111;
 }
 
+.product > button:hover {
+    border: 1px solid black;
+}
+
 .product__info {
-    height: 100px;
+    /* height: 100px; */
     margin-bottom: 15px;
 }
 

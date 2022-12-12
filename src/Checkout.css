@@ -17,6 +17,12 @@
     border-radius: 1px solid lightgray;
 }
 
-.checkout__right {
+.checkout__left {
+    width: 50%;
+}
     
+.checkout__right {
+    display: flex;
+    justify-content: end;
+    width: 50%;
 }

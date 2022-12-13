@@ -16,7 +16,7 @@ export default function Login() {
 
         // firebase sign in
         auth.signInWithEmailAndPassword(email, password).then(auth => {
-            navigate.push('/')
+            navigate('/')
         })
         .catch(error => alert(error.message))
     }
@@ -25,7 +25,7 @@ export default function Login() {
         e.preventDefault();
 
         auth.createUserWithEmailAndPassword(email,password).then((auth) =>{
-            navigate.push('/')
+            navigate('/')
         })
         .catch(error => alert(error.message))
 

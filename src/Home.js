@@ -1,27 +1,28 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import banner1 from './assets/banner_img.png';
 
 export default function Home() {
   return (
     <div className="home">
         <div className="home__container">
-            <img className='home__image' src="https://m.media-amazon.com/images/I/71Q+KKv0umL._SX3000_.jpg" alt="" />
+            <img className='home__image' src={banner1} alt="" />
         </div>
 
         <div className="home__row">
             <Product
                 id ="1005"
-                title="Lenovo IdeaPad Gaming 3 - 2022 - Everyday Gaming Laptop - NVIDIA GeForce RTX 3050 Graphics - 15.6 FHD Display - 120 Hz - AMD Ryzen 5 6600H - 8GB DDR5 - 258GB SSD - Win 11 - Free 3-month Xbox ..."
-                price = {69949.99}
-                image="https://m.media-amazon.com/images/I/81zcUyiNcUL._AC_UY218_.jpg"
+                title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones ..."
+                price = {149.99}
+                image="https://m.media-amazon.com/images/I/51-uspgqWIL._SX329_BO1,204,203,200_.jpg"
                 rating={4}
             /> 
             <Product
                 id ="1006"
-                title="2020 Apple MacBook Air Laptop: Apple M1 Chip, 13” Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Gray"
-                price = {10999.99}
-                image="https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UY218_.jpg"
+                title="The Successful Mind: Tools to Living a Purposeful, Productive, and Happy Life"
+                price = {299.99}
+                image="https://m.media-amazon.com/images/I/41o-EryxVrL._SX331_BO1,204,203,200_.jpg"
                 rating={5}
             /> 
         </div>
@@ -29,16 +30,16 @@ export default function Home() {
         <div className="home__row">
             <Product
                 id ="1000"
-                title="BENGOO G9000 Stereo Gaming Headset for PS4 PC Xbox One PS5 Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround, Soft Memory Earmuffs for Laptop Mac Nintendo NES..."
-                price = {1999.99}
-                image="https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_UY218_.jpg"
+                title="Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! Mass Market"
+                price = {199}
+                image="https://m.media-amazon.com/images/I/51A88IvtjGL._SX331_BO1,204,203,200_.jpg"
                 rating={4}
             /> 
             <Product
                 id ="1001"
-                title="SQL Coding for Beginners: After work guide to start learning SQL on your own. Surprise yourself by discovering how to manage, analyze and manipulate data with simple tips and tricks."
+                title="Quantum Computing: An Applied Approach"
                 price = {99.99}
-                image="https://m.media-amazon.com/images/I/71X-jlXT-eL._AC_UY218_.jpg"
+                image="https://m.media-amazon.com/images/I/41G0JZY2BkL._SX330_BO1,204,203,200_.jpg"
                 rating={3}
             />  
 
@@ -67,9 +68,40 @@ export default function Home() {
                 rating={4}
             /> 
         </div>
-        <div className="home__row">
-            {/*  */}
+
+        <div className="home__row rap_box">
+            <Product
+                id ="1005"
+                title="Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! Mass Market"
+                price = {199}
+                image="https://m.media-amazon.com/images/I/51A88IvtjGL._SX331_BO1,204,203,200_.jpg"
+                rating={4}
+            /> 
+            <Product
+                id ="1006"
+                title="Quantum Computing: An Applied Approach"
+                price = {99.99}
+                image="https://m.media-amazon.com/images/I/41G0JZY2BkL._SX330_BO1,204,203,200_.jpg"
+                rating={3}
+            />  
+
+            <Product
+                id ="1007"
+                title="50+ Linux Commands before joining a Company (Algorithms for Coding Interviews)"
+                price = {99.99}
+                image="https://m.media-amazon.com/images/I/719cszfn7eL._AC_UY218_.jpg"
+                rating={4}
+            /> 
+            <Product
+                id ="1008"
+                title="50+ Linux Commands before joining a Company (Algorithms for Coding Interviews)"
+                price = {99.99}
+                image="https://m.media-amazon.com/images/I/719cszfn7eL._AC_UY218_.jpg"
+                rating={3}
+            /> 
         </div>
+
+
     </div>
   )
 }

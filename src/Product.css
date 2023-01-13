@@ -10,8 +10,12 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
-    
+    transition: .5s;
   }
+
+.product:hover {
+    transform: scale(1.08);
+}
 
 .product > img {
     max-height: 200px;
@@ -21,15 +25,18 @@
 }
 
 .product > button {
-    background: #f0c14b;
+    background: #f0c14b; 
+    /* button color  #f0c14b */
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    transition: .5s;
 }
 
 .product > button:hover {
     border: 1px solid black;
+    transform: scale(1.1);
 }
 
 .product__info {

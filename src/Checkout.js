@@ -10,7 +10,7 @@ export default function () {
   return (
     <div className="checkout">
         <div className="checkout__left">
-            <img className='checkout__ad' src="https://s3images.coroflot.com/user_files/individual_files/large_601412_suge0avknnpat6lsf3yxyq3nd.jpg" alt="" />
+            <img className='checkout__ad' src="https://images-na.ssl-images-amazon.com/images/G/01/books/textbooks/marketing/CXImprove_test/CXImprov_textbooks_T2.png" alt="" />
             <div>
                 <h3>Hello, {user?.email}</h3>
                 <h2 className="checkout__title">Your Basket</h2>

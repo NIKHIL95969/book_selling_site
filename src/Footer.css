@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    margin-top: 1rem;
+    background-color: rgb(18, 13, 35);
+    height: 500px;
+    justify-content: center; 
+}
+
+.content_footer {
+    color: white;
+    font-size: 100px;
+    justify-content: center;
+}

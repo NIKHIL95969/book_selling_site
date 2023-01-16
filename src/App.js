@@ -6,6 +6,7 @@ import Checkout from './Checkout';
 import Login from './Login'
 import Footer from './Footer.js';
 import Payment from './Payment.js';
+import Orders from "./Orders";
 import { useStateValue } from './StateProvider';
 import { useEffect } from "react";
 import {loadStripe} from "@stripe/stripe-js";
@@ -55,6 +56,13 @@ function App() {
           <Route path="/login" element={
             <>
               <Login />
+            </>
+          } />
+
+          <Route path="/orders" element={
+            <>
+              <Header />
+              <Home />
             </>
           } />
 

@@ -1,13 +1,34 @@
 .footer{
-    display: flex;
     margin-top: 1rem;
+    height: 300px;
+    color: white;
     background-color: rgb(18, 13, 35);
-    height: 500px;
-    justify-content: center; 
 }
 
 .content_footer {
     color: white;
-    font-size: 100px;
     justify-content: center;
+    position: relative;
+    height: 300px;
 }
+
+.footer_links {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height: 50%;
+    font-size: 20px;
+    background-color: rgb(11, 11, 46);
+}
+
+.footer_social_media {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: white;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
